@@ -5,6 +5,40 @@
   # Project Overview
 This analysis provides insights into pricing trends and revenue for short-term rental listings. The dataset focuses on the following key metrics:
 
+ # Description of  the Dataset
+ # 1. Listing Details:
+id: Unique identifier for the property listing.
+listing_url: URL of the listing on the platform.
+scrape_id: ID assigned to the scraping instance.
+last_scraped: Date the listing data was last scraped.
+name: Name of the property.
+summary: A brief description of the property.
+space: Description of the space available in the listing (e.g., bedrooms, bathrooms).
+description: Detailed description of the property.
+experiences_offered: Types of experiences or activities offered by the host (e.g., tours, cooking classes).
+neighborhood_overview: Overview of the neighborhood where the property is located.
+notes: Any additional notes provided by the host.
+transit: Information about public transport accessibility near the property.
+thumbnail_url, medium_url, picture_url, xl_picture_url: URLs for images of the listing in different resolutions.
+# 2. Host Details:
+host_id: Unique identifier for the host.
+host_url: URL of the host’s profile page.
+host_name: Name of the host.
+host_since: Year the host started listing properties.
+host_location: Location of the host.
+host_about: Description of the host provided by them.
+host_response_time: Average response time of the host.
+host_response_rate: Percentage of messages the host responds to.
+host_acceptance_rate: Percentage of booking requests accepted by the host.
+host_is_superhost: Whether the host is a verified Superhost.
+host_thumbnail_url, host_picture_url: URLs for images of the host's profile.
+# 3. Location Details:
+street: Street address of the property.
+neighborhood, neighborhood_cleansed: Neighborhood where the property is located (raw and cleaned data).
+city, state, zipcode, country_code, country: Geographical information about the listing’s location.
+latitude, longitude: Geographic coordinates of the property.
+is_location_exact: Indicates if the location provided is accurate.
+
 Average Price per Bedroom
 Average Price by Zip Code
 Revenue by Year
