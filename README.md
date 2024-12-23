@@ -36,9 +36,9 @@ host_thumbnail_url, host_picture_url: URLs for images of the host's profile.
 street: Street address of the property.
 neighborhood, neighborhood_cleansed: Neighborhood where the property is located (raw and cleaned data).
 city, state, zipcode, country_code, country: Geographical information about the listing’s location.
-latitude, longitude: Geographic coordinates of the property.
+latityeude, longitude: Geographic coordinates of the property.
 is_location_exact: Indicates if the location provided is accurate.
-
+# key findings 
 Average Price per Bedroom
 Average Price by Zip Code
 Revenue by Year
